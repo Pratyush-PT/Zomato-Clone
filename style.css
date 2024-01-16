@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 1.05rem;
+    text-align: right;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif;  */
+    background: transparent;
+    /* padding: 0.8rem !important; */
+}
+
+.img {
+    background-image: url("81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    color: white;
+    transition: all 1.4s ease 0s;
+    transform: scale(1.1);
+    object-fit: cover;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    justify-content: space-between;
+    /* position: relative; */
+
+}
+
+.left {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 800px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-right: 300px;
+    margin-top: 50px;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.block {
+    justify-content: space-around;
+    margin: 3em 12em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.box-1 {
+    height: 28rem;
+    width: 100%;
+    background-position: top;
+    border-radius: 50%;
+}
+
+.box-2 {
+    height: 28rem;
+    width: 100%;
+}
+
+.box-3 {
+    height: 28rem;
+    width: 100%;
+}
+
+.box-4 {
+    height: 28rem;
+    width: 100%;
+}
+
+.zomato {
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+.down {
+    height: 300px;
+    width: 1000px;
+    margin-left: 5%;
+    margin-top: 8%;
+    font-size: 2rem;
+    /* font-weight: 500; */
+    cursor: text;
+}
+
+.downtwo {
+    height: 300px;
+    width: 75%;
+    margin-top: 12%;
+    margin-left: 0%;
+    font-size: 2rem;
+    /* font-weight: 500; */
+    cursor: text;
+}
+
+.block1 {
+    border: 0.5px solid wheat;
+    border-radius: 5%;
+    height: 15rem;
+    width: 30rem;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+}
+
+.block1:hover {
+    /* height: 18rem;
+    width: 33rem; */
+    transition: all 0.2s ease 0s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.block2 {
+    border: 0.5px solid wheat;
+    border-radius: 5%;
+    height: 15rem;
+    width: 30rem;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+}
+
+.block2:hover {
+    transition: all 0.2s ease 0s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.swipe {
+    height: 70%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 5% 5% 0% 0%;
+    color: rgb(54, 54, 54);
+}
+
+.two p {
+    margin: 0.8em 0em 0em 0.3em;
+    font-size: larger;
+
+}
+
+.two p head {
+    margin: 0.5em 0em 0em 0.3em;
+    font-size: larger;
+    font-weight: bolder;
+
+}
