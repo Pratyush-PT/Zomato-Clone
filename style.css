@@ -105,6 +105,8 @@ a {
     margin-top: 3%;
 }
 
+
+
 .down {
     height: 300px;
     width: 1000px;
@@ -113,7 +115,10 @@ a {
     font-size: 2rem;
     /* font-weight: 500; */
     cursor: text;
+    
 }
+
+
 
 .downtwo {
     height: 300px;
